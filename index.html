@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./imgs/logo.png">
+    <title>Rock,paper,scissors</title>
+</head>
+<body>
+    <div class="containerBlock">
+        <header> 
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <div class="score-board">
+            <div id="user-label" class="badge">User</div>
+            <div id="comp-label"class="badge">Comp</div>
+            <span id="user-score">0</span>:<span id="comp-score">0</span> <!--  span is inline elements div is a block elements -->
+        </div>
+    
+        <div class="result">
+            <p>let's Start</p>
+        </div>
+    
+        <div class="choices">
+            <div id="user-img" class="choice" >
+                <img src="./imgs/rock.png" id="rock" alt="rock" style="width: 100px;height: 100px;">   
+            </div>
+            <div id="message" class="choice">
+                <img src="./imgs/paper.png" id="paper" alt="paper" style="width: 100px;height: 100px;">   
+            </div>
+            <div id="comp-img" class="choice">
+                <img src="./imgs/scissors.png" id="scissors" alt="scissors" style="width: 100px;height: 100px;">   
+            </div>
+        </div>
+            <div class="btn-div">
+                <button id="action-message" class="action-btn" onclick="toggelButton()">Make your move</button>
+            </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
